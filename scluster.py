@@ -56,9 +56,6 @@ class Clusters(object):
                             break
 
     def group_on_disk(self, output):
-        self.group_clusters(output)
-
-    def group_clusters(self, output):
         for cluster, md5s in self.clusters.iteritems():
             self.write_to_disk(cluster, md5s, self.samples, output)
 
