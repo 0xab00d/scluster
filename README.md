@@ -1,12 +1,13 @@
 scluster
 ========
 Simple tool that clusters files based on ssdeep distances. Results are output as JSON and can be grouped on disk when an output path is specified.
-Suitale to be used as a standalone script or imported
+Suitable to be used as a standalone script or imported
+
 Installation
 ============
     git clone https://github.com/0xab00d/scluster
     sudo apt-get install python-dev libfuzzy-dev
-    pip install -r requirements.txt
+    python setup.py install
 
 Examples
 ========
